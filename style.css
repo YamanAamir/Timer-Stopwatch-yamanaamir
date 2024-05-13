@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'purva';
+    src: url(fonts/JainiPurva-Regular.ttf);
+}
+
+.my-btn {
+    border: none;
+    background: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    /* background-color: none !important; */
+}
+
+#t-btn {
+    border-bottom: 2px solid black;
+}
+
+/* .my-btn:active {
+    border-bottom: 1px solid blacks;
+} */
+.main {
+    font-family: 'purva';
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px 16px 0;
+    background: darkseagreen;
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid !important;
+    margin: 20px 0;
+}
+
+.timer,
+.stop-watch {
+    margin: 20px 0;
+}
+
+.btns {
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+
+span {
+
+    font-size: 40px;
+}
+
+.my-sec-btn {
+    border: none;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.my-sec-btn:hover {
+    background-color: #515f51;
+}
+footer{
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: center;
+    margin-top: 40vh; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'purva' ;
+    /* font-size: 22px !important; */
+}
